@@ -1,4 +1,4 @@
-= <Project Name> System-Wide Requirements Specification
+= Cocktailversand System-Wide Requirements Specification
 Vorname Nachname <email@domain.org> 
 0.1, 01.11.2019 
 :toc: 
@@ -7,7 +7,7 @@ Vorname Nachname <email@domain.org>
 :icons: font
 
 == Einführung
-In diesem Dokument werden die systemweiten Anforderungen für das Projekt <Thema> spezifiziert. Die Gliederung erfolgt nach der FURPS+ Anforderungsklassifikation:
+In diesem Dokument werden die systemweiten Anforderungen für das Projekt Cocktailversand spezifiziert. Die Gliederung erfolgt nach der FURPS+ Anforderungsklassifikation:
 
 * Systemweite funktionale Anforderungen (F),
 * Qualitätsanforderungen für Benutzbarkeit, Zuverlässigkeit, Effizienz und Wartbarkeit (URPS) sowie 
