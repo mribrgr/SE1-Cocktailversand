@@ -5,4 +5,4 @@ Hinweis: Eine "Vision" fasst die Vision eines Projektes zusammen - eine Zusammen
 
 .Diskussion:
 * "Dass man weiss, wo die Reise hingeht." ~ Lukas
-* Um einen Ueberblick zu bekommen und nochmal die Grundstruktur im Kopf durchzugehen.
+* vereinfacht die Erstellung eines Ablaufplans und die Aufgabenverteilung
