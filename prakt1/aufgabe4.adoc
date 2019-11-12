@@ -1,0 +1,11 @@
+== Aufgabe 4
+Priorisieren Sie die gefundenen Use Cases nach Wichtigkeit und beschreiben Sie die
+wichtigsten ausführlicher. Nutzen Sie hierfür die Vorlage im Anhang.
+
+Hinweis: Es gibt mehrere Verfeinerungsstufen. Diese werden je nach Wichtigkeit des
+Use Cases im Verlauf des Projektes immer weiter verfeinert. In dieser frühen Phase
+werden nur grundlegende Dinge wie beispielsweise der Standardablauf dokumentiert.
+
+.Use Cases:
+* text
+* text
