@@ -9,6 +9,7 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
 ** Anbieten besonderer Konditionen für treue Kunden (z.B. Rabatt für nächste Lieferung)
 ** Umlegung der Versandkosten auf die angebotenen Cocktails
 ** Hinzufügen und Entfernen von Zutaten zur Erstellung eigener Cocktails je nach Bestand in der Bar
+** Hinzufügen einer Bezahlungsbestätigung
 * Privatkunden
 ** Erstellen (und Löschen?) eines Kundenkontos
 ** Bestellung für Partys oder als Geburtstagsgeschenk
