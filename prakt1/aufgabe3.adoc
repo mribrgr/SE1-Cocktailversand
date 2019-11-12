@@ -3,19 +3,21 @@ Leiten Sie Use Cases aus der Perspektive der Stakeholder ab. Beachten Sie hierbe
 Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Cases gefunden. Es sollten alle offensichtlichen notiert werden. Im weiteren iterativen Verlauf wird diese Liste weiter gefüllt und verfeinert.
 
 === Use Cases:
-* Barbetreiber
-  1. Versenden von Werbeaktionen per E-Mail (z.B. zu Geburtstagen oder Weihnachten)
-  2. Sperren eines Kundens, falls Rechnungs nicht bezahlt wurde
-  3. Anbieten besonderer Konditionen für treue Kunden (z.B. Rabatt für nächste Lieferung)
-  4. Umlegung der Versandkosten auf die angebotenen Cocktails
-* Privatkunden
-  1. Bestellung für Partys oder als Geburtstagsgeschenk
-  2. Bestellen fertiger Standardcocktails oder Entwickeln eigener Kreationen 
-  // sollen eigene Kreationen gespeichert werden können und für andere sichtbar sein?
-  3. Auswählen zwischen verschiedenen Alkoholen, Säften oder Toppings. Preise stehen neben Auswahlmöglichkeiten und errechnen sich nach Milliliter bzw. Topping.
-  4. Einfacher Bestellvorgang (maximal 5 Klicks von der Startseite bis zur Aufgabe der Bestellung), keine Pop-ups
-  5. Anzeigen des Warenkorbs vor Abschluss des Bestellprozesses, Anzahl ausgewählter Cocktails kann hier verändert werden
-  6. Auswahl verschiedener Bestellmöglichkeiten mit anschließender Bestellbestätigung
-  7. Anzeigen einer Betsellhistorie mit Status
-  8. Stornierung bis zu 24h nach Eingang der Bestellung
+1. Barbetreiber
+  * Versenden von Werbeaktionen per E-Mail (z.B. zu Geburtstagen oder Weihnachten)
+  * Sperren eines Kundens, falls Rechnungs nicht bezahlt wurde
+  * Anbieten besonderer Konditionen für treue Kunden (z.B. Rabatt für nächste Lieferung)
+  * Umlegung der Versandkosten auf die angebotenen Cocktails
+  * Hinzufügen und Entfernen von Zutaten zur Erstellung eigener Cocktails je nach Bestand in der Bar
+2. Privatkunden
+  * Erstellen (und Löschen?) eines Kundenkontos
+  * Bestellung für Partys oder als Geburtstagsgeschenk
+  * Bestellen fertiger Standardcocktails oder Entwickeln eigener Kreationen 
+// sollen eigene Kreationen gespeichert werden können und für andere sichtbar sein?
+  * Auswählen zwischen verschiedenen Alkoholen, Säften oder Toppings. Preise stehen neben Auswahlmöglichkeiten und errechnen sich nach Milliliter bzw. Topping.
+  * Einfacher Bestellvorgang (maximal 5 Klicks von der Startseite bis zur Aufgabe der Bestellung), keine Pop-ups
+  * Anzeigen des Warenkorbs vor Abschluss des Bestellprozesses, Anzahl ausgewählter Cocktails kann hier verändert werden
+  * Auswahl verschiedener Bestellmöglichkeiten mit anschließender Bestellbestätigung
+  * Anzeigen einer Betsellhistorie mit Status
+  * Stornierung bis zu 24h nach Eingang der Bestellung
   
