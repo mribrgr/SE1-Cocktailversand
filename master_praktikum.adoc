@@ -1,0 +1,18 @@
+= Vision -Projektthema-
+Lukas Hirsch <email@domain.org> 
+0.1, 01.11.2019 
+:toc: 
+:toc-title: Inhaltsverzeichnis
+:sectnums:
+// Platzhalter für weitere Dokumenten-Attribute 
+
+
+include::prakt1/aufgabe1.adoc[]
+
+include::prakt1/aufgabe2.adoc[]
+
+include::prakt1/aufgabe3.adoc[]
+
+include::prakt1/aufgabe4.adoc[]
+
+include::prakt1/aufgabe5.adoc[]
