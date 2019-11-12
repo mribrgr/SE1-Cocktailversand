@@ -1,1 +1,10 @@
 == Aufgabe 2
+Finden Sie mögliche Stakeholder mit den jeweiligen Interessen heraus.
+
+.mögliche Stakeholder:
+* Barbetreiber
+** Interessen:
+*** erweiterung des Absatzes
+*** ansprechen neuer Kunden
+*** Marktanalysen -> auswertung der Datenbank
+
