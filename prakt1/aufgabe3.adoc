@@ -10,6 +10,7 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
   * Umlegung der Versandkosten auf die angebotenen Cocktails
   * Hinzufügen und Entfernen von Zutaten zur Erstellung eigener Cocktails je nach Bestand in der Bar
 2. Privatkunden
+  * Erstellen (und Löschen?) eines Kundenkontos
   * Bestellung für Partys oder als Geburtstagsgeschenk
   * Bestellen fertiger Standardcocktails oder Entwickeln eigener Kreationen 
 // sollen eigene Kreationen gespeichert werden können und für andere sichtbar sein?
