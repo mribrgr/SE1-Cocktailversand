@@ -1,0 +1,5 @@
+== Aufgabe 5
+Fügen Sie wichtige Begriffe mit Beschreibung zum Glossary hinzu. Ein Beispiel für
+das gegebene Szenario finden Sie im Anhang.
+
+* Weitere Hinweise: Larman 2005, Kapitel 6.7, 6.8, 7.8 und 7.9
