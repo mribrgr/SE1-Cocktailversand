@@ -1,4 +1,4 @@
-= <Project Name> System-Wide Requirements Specification
+= Cocktailversand System-Wide Requirements Specification
 Vorname Nachname <email@domain.org> 
 0.1, 01.11.2019 
 :toc: 
