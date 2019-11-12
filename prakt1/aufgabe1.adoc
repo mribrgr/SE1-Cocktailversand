@@ -1,0 +1,7 @@
+== Aufgabe 1
+Was ist Ziel bzw. Vision des zu entwickelnden Systems? +
+Diskussion: Wieso ist es wichtig am Anfang diese zu definieren?
+
+.Diskussion:
+* Punkt 1
+* Punkt 2
