@@ -4,6 +4,8 @@ das gegebene Szenario finden Sie im Anhang.
 
 * Weitere Hinweise: Larman 2005, Kapitel 6.7, 6.8, 7.8 und 7.9
 
+.wichtige Begriffe:
+* die verschiedenen Cocktailarten
 === Glossary
 
 ==== Einführung
@@ -13,10 +15,8 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 [%header]
 |===
 |Begriff|	Definition und Erläuterung|	Synonyme
-|Kommissionierung|Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags|(keine))
-|Cocktail| meist Alkoholisches Mixgetränk| Mische
-|Topping|xx|xx
-|xx|xx|xx
+//|Kommissionierung|Bereitstellung von Waren aus einem Lager entsprechend eines Kundenauftrags|(keine))|
+|xx|xx|xx|
 |===
 		
 
@@ -24,7 +24,7 @@ In diesem Dokument werden die wesentlichen Begriffe aus dem Anwendungsgebiet (Fa
 [%header]
 |===
 |Abkürzung|	Bedeutung|	Erläuterung
-|UP|Unified Process|Vorgehensmodell für die Softwareentwicklung|
+//|UP|Unified Process|Vorgehensmodell für die Softwareentwicklung|
 |xx|xx|xx|
 |===
 
