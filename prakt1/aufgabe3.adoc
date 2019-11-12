@@ -12,7 +12,7 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
 2. Privatkunden
   * Bestellung für Partys oder als Geburtstagsgeschenk
   * Bestellen fertiger Standardcocktails oder Entwickeln eigener Kreationen 
-  // sollen eigene Kreationen gespeichert werden können und für andere sichtbar sein?
+// sollen eigene Kreationen gespeichert werden können und für andere sichtbar sein?
   * Auswählen zwischen verschiedenen Alkoholen, Säften oder Toppings. Preise stehen neben Auswahlmöglichkeiten und errechnen sich nach Milliliter bzw. Topping.
   * Einfacher Bestellvorgang (maximal 5 Klicks von der Startseite bis zur Aufgabe der Bestellung), keine Pop-ups
   * Anzeigen des Warenkorbs vor Abschluss des Bestellprozesses, Anzahl ausgewählter Cocktails kann hier verändert werden
