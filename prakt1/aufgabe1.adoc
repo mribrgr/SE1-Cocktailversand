@@ -4,5 +4,4 @@ Diskussion: Wieso ist es wichtig am Anfang diese zu definieren? +
 Hinweis: Eine "Vision" fasst die Vision eines Projektes zusammen - eine Zusammenfassung für Führungskräfte. Sie dient dazu, die großen Ideen knapp zu kommunizieren (Larman 2005, S. 138).
 
 .Diskussion:
-* Punkt 1
-* Punkt 2
+* "Dass man weiss, wo die Reise hingeht." ~ Lukas
