@@ -8,6 +8,7 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
   * Sperren eines Kundens, falls Rechnungs nicht bezahlt wurde
   * Anbieten besonderer Konditionen für treue Kunden (z.B. Rabatt für nächste Lieferung)
   * Umlegung der Versandkosten auf die angebotenen Cocktails
+  * Hinzufügen und Entfernen von Zutaten zur Erstellung eigener Cocktails je nach Bestand in der Bar
 2. Privatkunden
   * Bestellung für Partys oder als Geburtstagsgeschenk
   * Bestellen fertiger Standardcocktails oder Entwickeln eigener Kreationen 
