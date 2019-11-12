@@ -8,10 +8,12 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
   * Sperren eines Kundens, falls Rechnungs nicht bezahlt wurde
   * Anbieten besonderer Konditionen für treue Kunden (z.B. Rabatt für nächste Lieferung)
   * Umlegung der Versandkosten auf die angebotenen Cocktails
+  * Hinzufügen und Entfernen von Zutaten zur Erstellung eigener Cocktails je nach Bestand in der Bar
 2. Privatkunden
+  * Erstellen (und Löschen?) eines Kundenkontos
   * Bestellung für Partys oder als Geburtstagsgeschenk
   * Bestellen fertiger Standardcocktails oder Entwickeln eigener Kreationen 
-  // sollen eigene Kreationen gespeichert werden können und für andere sichtbar sein?
+// sollen eigene Kreationen gespeichert werden können und für andere sichtbar sein?
   * Auswählen zwischen verschiedenen Alkoholen, Säften oder Toppings. Preise stehen neben Auswahlmöglichkeiten und errechnen sich nach Milliliter bzw. Topping.
   * Einfacher Bestellvorgang (maximal 5 Klicks von der Startseite bis zur Aufgabe der Bestellung), keine Pop-ups
   * Anzeigen des Warenkorbs vor Abschluss des Bestellprozesses, Anzahl ausgewählter Cocktails kann hier verändert werden
