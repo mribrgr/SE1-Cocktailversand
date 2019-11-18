@@ -1,5 +1,5 @@
-= Vision -Projektthema-
-Lukas Hirsch <email@domain.org> 
+= Beispielprojekt -Cocktailversand-
+Lukas Hirsch <s79199@htw.dresden.de>; ;  
 0.1, 01.11.2019 
 :toc: 
 :toc-title: Inhaltsverzeichnis
