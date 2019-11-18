@@ -13,12 +13,12 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
 // ---------------------------------------------------------------
 * Versandtabteilungsarbeiter
 ** Erkennen der Bestellungen nach gewünschtem Lieferdatum
-** Nach übergabe des PAkets zur Post versandt der Trakingnummer zum Kunden
+** Nach übergabe des PAkets zur Post versandt der Trackingnummer zum Kunden
 // ---------------------------------------------------------------
 * Lagerarbeiter
 ** Erkennen Aktueller Bestände
 ** Vorauswarnungen bei Großaufträgen
-** Sperren von Cocktrails, wenn keine Zutaten da sind
+** Sperren von Cocktails, wenn keine Zutaten da sind
 // ---------------------------------------------------------------
 * Privatkunden
 ** Erstellen (und Löschen?) eines Kundenkontos
@@ -29,7 +29,7 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
 ** Einfacher Bestellvorgang (maximal 5 Klicks von der Startseite bis zur Aufgabe der Bestellung), keine Pop-ups
 ** Anzeigen des Warenkorbs vor Abschluss des Bestellprozesses, Anzahl ausgewählter Cocktails kann hier verändert werden
 ** Auswahl verschiedener Bestellmöglichkeiten mit anschließender Bestellbestätigung
-** Anzeigen einer Betsellhistorie mit Status
+** Anzeigen einer Bestellhistorie mit Status
 ** Stornierung bis zu 24h nach Eingang der Bestellung
 // ---------------------------------------------------------------
 * Paypal
