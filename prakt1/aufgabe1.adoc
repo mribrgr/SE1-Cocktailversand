@@ -3,6 +3,9 @@ Was ist Ziel bzw. Vision des zu entwickelnden Systems? +
 Diskussion: Wieso ist es wichtig am Anfang diese zu definieren? + 
 Hinweis: Eine "Vision" fasst die Vision eines Projektes zusammen - eine Zusammenfassung für Führungskräfte. Sie dient dazu, die großen Ideen knapp zu kommunizieren (Larman 2005, S. 138).
 
+.Vision:
+* Ein Online-Shop für den Versand einer Cocktailbar soll erstellt werden. Das Problem des Barbetreibers besteht in der begrenzten Reichweite der Bar, welche darauf begründet ist, dass Kunden ausschließlich vor Ort Cocktails kaufen können. Stakeholder des Projekts sind der Barbetreiber, Versandabteilungsleiter, Lagerarbeiter, Privatkunde, Hacker, das Jugendschutzgesetz und PayPal. Der Online-Shop soll sowohl die Bestellung von Standardcocktails, als auch die Bestellung von eigenen Kreationen des Kundens ermöglichen. Der Bestellprozess geht einfach und schnell von statten, Bestellungen können 24 Stunden bis nach Bestelleingang storniert werden. Zudem ermöglicht die Software das Erstellen, Verwalten und Sperren von Kundenkonten. Zu den In Of System Boundaries zählt der fehlende Bestand von Zutaten.
+
 .Diskussion:
-* "Dass man weiss, wo die Reise hingeht." ~ Lukas
+* "Dass man weiß, wo die Reise hingeht." ~ Lukas
 * vereinfacht die Erstellung eines Ablaufplans und die Aufgabenverteilung
