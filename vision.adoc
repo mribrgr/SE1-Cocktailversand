@@ -9,32 +9,39 @@ Vorname Nachname <email@domain.org>
 
 
 == Einführung
-Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des <Projektname-Systems> zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie das <Projektname-System> diese Bedarfe erfüllt, werden in der Use-Case und Supplementary Specification beschrieben.
+Der Zweck dieses Dokuments ist es, die wesentlichen Bedarfe und Funktionalitäten des Online-Shops für Cocktailversand zu sammeln, zu analysieren und zu definieren. Der Fokus liegt auf den Fähigkeiten, die von Stakeholdern und adressierten Nutzern benötigt werden, und der Begründung dieser Bedarfe. Die  Details, wie der Online-Shop für Cocktailversand diese Bedarfe erfüllt, werden in der Use-Case und Supplementary Specification beschrieben.
 
 === Zweck
 Der Zweck dieses Dokuments ist es, die wesentlichen Anforderungen an das System aus Sicht und mit den Begriffen der künftigen Anwender zu beschreiben.
 
 === Gültigkeitsbereich (Scope)
-Dieses Visions-Dokument bezieht sich auf das <Projektthema-System>, das von <Team> entwickelt wird. Das System wird es <Zielnutzer> erlauben, <Hauptfunktionen> zu nutzen, um damit <Vorteile> zu erreichen / <Aufgabe> zu erleichtern / <Problem> zu lösen.
+Dieses Visions-Dokument bezieht sich auf das Online-Shop für Cocktailversand, das von der IT-Consulting-Firma entwickelt wird. Das System wird es Privatkunden erlauben, die Bestellfunktion zu nutzen, um damit Standardcocktails und eigen erstellte Cocktails für sich selbst oder als Geburtstagsgeschenkt zu bestellen.
 
 === Definitionen, Akronyme und Abkürzungen
-siehe Glossar (Verweis hier einfügen).
+https://github.com/mribrgr/SE1-Cocktailversand/blob/master/glossary.adoc[Glossary]
 
 === Referenzen
 (hier externe Verweise zu anderen Dokumenten, Quellen, Standards etc. einfügen, sofern notwendig)
 
 == Positionierung
 === Fachliche Motivation
+Der Barbetreiber möchte die Reichweite seiner Bar erhöhen, welche begrenzt ist, da Kunden nur vor Ort Cocktails erwerben können. Mit dem Online-Shop soll ermöglicht werden, Kunden, die nicht vor Ort erscheinen können, zu beliefern.
 //Erläutern Sie kurz den Hintergrund, in dem das Projekt angesiedelt ist. Welches Problem soll gelöst werden, wie ist es entstanden? Welche Verbesserung wird angestrebt. Achten Sie darauf, eine fachliche (organisatorische, betriebswirtschaftliche) Perspektive einzunehmen.
 
 ===	Problem Statement
 //Stellen Sie zusammenfassend das Problem dar, das mit diesem Projekt gelöst werden soll. Das folgende Format kann dazu verwendet werden:
 
+
 |===
-|Das Problem |	[beschreiben Sie das Problem]
-|betrifft |	[die Stakeholder, die vom Problem betroffen sind]
-|die Auswirkung davon ist |	[welche Auswirkungen hat das Problem?]
-|eine erfolgreiche Lösung wäre |	[Führen Sie einige wesentliche Vorteile einer erfolgreichen Lösung auf]
+|Das Problem |	begrenzte Reichweite der Bar
+|betrifft |	Barbetreiber, Privatkunden
+|die Auswirkung davon ist a|
+
+* Profit kann nicht maximiert werden
+* durch mangelnden Profit kann die Bar nicht verbessert werden
+* interessierte Kunden können keine Cocktails erwerben
+
+|eine erfolgreiche Lösung wäre |	das Einführen eines Online-Shops
 |===
 
 // Beispiel
@@ -49,6 +56,15 @@ siehe Glossar (Verweis hier einfügen).
 //Ein Positionierung des Produkts beschreibt das Einsatzziel der Anwendung und die Bedeutung das Projekts an alle beteiligten Mitarbeiter.
 
 //Geben Sie in knapper Form übersichtsartig die Positionierung der angestrebten Lösung im Vergleich zu verfügbaren Alternativen dar. Das folgende Format kann dazu verwendet werden:
+
+|===
+|Für|	die Barmitarbeiter
+|die|	Cocktails, nicht vor Ort kaufen können
+|Die Lösung ist ein | Online-Shop für Cocktail-Versand
+|Der	| das Kaufen von Cocktails von außerhalb ermöglicht
+|Im Gegensatz zu	| Telefonbestellung
+|Unser Produkt|	führt zu einem schnellen Bestellvorgang, da der Kunde nicht in eine Telefonwarteschlange gelangt
+|===
 
 |===
 |Für|	[Zielkunde / Nutzer]
