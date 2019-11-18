@@ -1,5 +1,5 @@
 = Beispielprojekt -Cocktailversand-
-Lukas Hirsch <s79199@htw.dresden.de>; ;  
+Lukas Hirsch <s79199@informatik.htw-dresden.de>; Mauritius Berger <s79149@informatik.htw-dresden.de>; Theresa Hollas <s79136@informatik.htw-dresden.de>
 0.1, 01.11.2019 
 :toc: 
 :toc-title: Inhaltsverzeichnis
