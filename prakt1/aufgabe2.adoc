@@ -3,18 +3,18 @@ Finden Sie mögliche Stakeholder mit den jeweiligen Interessen heraus.
 
 .mögliche Stakeholder:
 * Barbetreiber
-** erweiterung des Absatzes
-** ansprechen neuer Kunden
-** Marktanalysen -> auswertung der Datenbank
+** Erweiterung des Absatzes
+** Ansprechen neuer Kunden
+** Marktanalysen -> Auswertung der Datenbank
 * Versandtabteilungsarbeiter
-** Einfaches erkennen von Bestellungen
+** Einfaches Erkennen von Bestellungen
 * Lagerarbeiter
 ** Lagerbestand wird interaktiv verwaltet
 * Privatkunden 
-** bestellung der Cocktails
+** Bestellung der Cocktails
 ** Frustfrei Bestellen -> Einfache Bedienmöglichkeit
 ** Zutaten der Cocktails lesen
-** möglichst die passende Bezahlmöglichkeit
+** Möglichst die passende Bezahlmöglichkeit
 * Paypal
 ** Der Geldfluss läuft darüber
 * Jugendschutzgesetz
