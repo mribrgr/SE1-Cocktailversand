@@ -10,6 +10,16 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
 ** Umlegung der Versandkosten auf die angebotenen Cocktails
 ** Hinzufügen und Entfernen von Zutaten zur Erstellung eigener Cocktails je nach Bestand in der Bar
 ** Hinzufügen einer Bezahlungsbestätigung
+// ---------------------------------------------------------------
+* Versandtabteilungsarbeiter
+** Erkennen der Bestellungen nach gewünschtem Lieferdatum
+** Nach übergabe des PAkets zur Post versandt der Trakingnummer zum Kunden
+// ---------------------------------------------------------------
+* Lagerarbeiter
+** Erkennen Aktueller Bestände
+** Vorauswarnungen bei Großaufträgen
+** Sperren von Cocktrails, wenn keine Zutaten da sind
+// ---------------------------------------------------------------
 * Privatkunden
 ** Erstellen (und Löschen?) eines Kundenkontos
 ** Bestellung für Partys oder als Geburtstagsgeschenk
@@ -21,4 +31,14 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
 ** Auswahl verschiedener Bestellmöglichkeiten mit anschließender Bestellbestätigung
 ** Anzeigen einer Betsellhistorie mit Status
 ** Stornierung bis zu 24h nach Eingang der Bestellung
+// ---------------------------------------------------------------
+* Paypal
+** Abwicklung der Bezahlung
+// ---------------------------------------------------------------
+* Jugendschutzgesetz
+** Überprüfung, dass kein Minderjähriger bestellt
+// ---------------------------------------------------------------
+* Hacker
+** Ergattern von Nutzerdaten durch Hacken der Datenbank
+** SQL-Injektion????
   
