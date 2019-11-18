@@ -37,6 +37,7 @@ Hinweis: Während dieser frühen Phase können und werden noch nicht alle Use Ca
 // ---------------------------------------------------------------
 * Jugendschutzgesetz
 ** Überprüfung, dass kein Minderjähriger bestellt
+** Ausweiskopie??
 // ---------------------------------------------------------------
 * Hacker
 ** Ergattern von Nutzerdaten durch Hacken der Datenbank
