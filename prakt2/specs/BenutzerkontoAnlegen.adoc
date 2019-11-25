@@ -34,6 +34,7 @@ d. das Passwort die Sicherheitsbedingungen des Systems nicht erfüllt
 e. die Nutzungsbedingungen nicht bestätigt wurden
 f. eine Eingabe fehlt
 fordert das System ihn auf, gültige Eingaben zu tätigen. Je nach ungültiger Eingabe werden Hinweise ausgegeben, die beschreiben, wie eine gültige Eingabe zu tätigen ist.
+
 . Der Kunde korrigiert seine Eingaben.
 . Der Use Case wird im Schritt 3 fortgesetzt.
 
