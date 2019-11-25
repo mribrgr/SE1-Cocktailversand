@@ -66,15 +66,6 @@ Der Barbetreiber möchte die Reichweite seiner Bar erhöhen, welche begrenzt ist
 |Unser Produkt|	führt zu einem schnellen Bestellvorgang, da der Kunde nicht in eine Telefonwarteschlange gelangt
 |===
 
-|===
-|Für|	[Zielkunde / Nutzer]
-|der / die|	[Angabe des Bedarfs oder Chance]
-|Das Produkt / die Lösung ist ein | [Produktkategorie]
-|Die / Das	|[Aussage zum Hauptvorteil / Alleinstellungsmerkmal]
-|Im Gegensatz zu	|[wesentliche Lösungsalternative]
-|Unser Produkt|	[Aussage zum Hauptunterschied]
-|===
-
 
 //Beispiel Produkt:
 //|===
