@@ -1,38 +1,49 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
-== Use-Case: <use-case name>
+== Use-Case: Bestellung aufgeben
 ===	Kurzbeschreibung
 //<Kurze Beschreibung des Use Case>
+Ein Kunde möchte eine Bestellung aufgeben.
 
 ===	Kurzbeschreibung der Akteure
-==== <Akteur 1 Name>
+==== Kunde
+Derjenige, welche die Bestellung aufgibt.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
-<Vorbedingung 1>
+* Benutzer muss angemeldet sein.
+* Warenkorb ist nicht leer
+* Benutzer versucht den Vorgang abzuschließen
 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. 	… 
-. <Standardablauf Schritt n>
-. Der Use Case ist abgeschlossen.
+. Der Use Case beginnt, wenn der Kunde versucht die Bestellung aufzugeben.
+. <<sub-altersprüfung>>
+. Lieferadresse wird vom Kunden angegeben
+. <<sub-bezahlung>>
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
-==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann 
-. <Ablauf beschreiben>  
-. Der Use Case wird im Schritt <y> fortgesetzt.
+==== Bezahlvorgang fehlgeschlagen
+Wenn der Schritt 5 fehlschlägt tritt dieser Fehlerfall auf.
+. Bezahlvorgang wird wiederholt
+. Kunde gibt erneut die Zahlungsinformationen an
+. Weiter in Schritt 6
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
 
-==== <Unterablauf 1>
-. <Unterablauf 1, Schritt 1>
-. …
-. <Unterablauf 1, Schritt n>
+[#sub-altersprüfung]
+==== Altersprüfung
+. Altersprüfung beginnt
+. Alter wird verarbeitet
+. Altersprüfung ist erfolgreich abgeschlossen
+
+[#sub-bezahlung]
+==== Bezahlung
+. Bezahlvorgang beginnt
+. Bezahlung wird verarbeitet
+. Bezahlvorgang ist erfolgreich abgeschlossen
 
 === Wesentliche Szenarios
 //Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
