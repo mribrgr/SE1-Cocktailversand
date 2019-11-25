@@ -21,14 +21,16 @@ Derjenige, welche die Bestellung aufgibt.
 . <<sub-altersprüfung>>
 . Lieferadresse wird vom Kunden angegeben
 . <<sub-bezahlung>>
+#[flow-finalized]
+. Bestellung abgeschlossen
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 ==== Bezahlvorgang fehlgeschlagen
-Wenn der Schritt 5 fehlschlägt tritt dieser Fehlerfall auf.
+Wenn der Schritt <<sub-bezahlung>> fehlschlägt tritt dieser Fehlerfall auf.
 . Bezahlvorgang wird wiederholt
 . Kunde gibt erneut die Zahlungsinformationen an
-. Weiter in Schritt 6
+. Weiter in Schritt <<flow-finalized>>
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
