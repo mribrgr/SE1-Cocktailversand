@@ -21,9 +21,6 @@ Derjenige, welche die Bestellung aufgibt.
 . <<sub-altersprüfung>>
 . Lieferadresse wird vom Kunden angegeben
 . <<sub-bezahlung>>
-
-#[flow-finalized]
-
 . Bestellung abgeschlossen
 
 === Alternative Abläufe
@@ -32,7 +29,10 @@ Derjenige, welche die Bestellung aufgibt.
 Wenn der Schritt <<sub-bezahlung>> fehlschlägt tritt dieser Fehlerfall auf.
 . Bezahlvorgang wird wiederholt
 . Kunde gibt erneut die Zahlungsinformationen an
-. Weiter in Schritt <<flow-finalized>>
+. Wenn erfolgreich, weiter im letzten Schritt
+
+// alternativ Altersprüfung fehlgeschlagen
+// -> ist kein alternativer Ablauf, da das Ziel nicht erreicht werden kann
 
 === Unterabläufe (subflows)
 //Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
@@ -49,17 +49,10 @@ Wenn der Schritt <<sub-bezahlung>> fehlschlägt tritt dieser Fehlerfall auf.
 . Bezahlung wird verarbeitet
 . Bezahlvorgang ist erfolgreich abgeschlossen
 
-=== Wesentliche Szenarios
-//Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
-==== <Szenario 1>
-. <Szenario 1, Schritt 1>
-. 	…
-. <Szenario 1, Schritt n>
-
 ===	Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
-==== <Nachbedingung 1>
+==== Bestellungseingang bestätigt
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
-==== <Besondere Anforderung 1>
+==== Keine
