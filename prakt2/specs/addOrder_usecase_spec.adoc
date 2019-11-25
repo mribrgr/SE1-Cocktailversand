@@ -21,6 +21,7 @@ Derjenige, welche die Bestellung aufgibt.
 . <<sub-altersprüfung>>
 . Lieferadresse wird vom Kunden angegeben
 . <<sub-bezahlung>>
+
 #[flow-finalized]
 . Bestellung abgeschlossen
 
