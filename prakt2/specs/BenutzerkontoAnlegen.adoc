@@ -26,6 +26,7 @@ Der Kunde verfügt über eine gültige E-Mail-Adresse und befindet sich auf der 
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 ==== Ungültige Eingabe
 Wenn der Privatkunde im Schritt 2 des Standardablauf
+
 a. eine ungültige E-Mail-Adresse eingibt
 b. sein Geburtsdatum erschließen lässt, dass er jünger als 16 ist 
 c. das eingebene Passwort und die Bestätigung nicht übereinstimmen
@@ -39,8 +40,10 @@ fordert das System ihn auf, gültige Eingaben zu tätigen. Je nach ungültiger E
 ==== Der Kunde ist jünger als 16
 Wenn der Kunde im Schritt 2 des Standardablauf ein korrektes Geburtsdatum angibt, das erschließen lässt, dass er jünger als 16 ist, wird der Hinweis ausgegeben, dass ein Nutzer zum Anlegen eines Kundenkontos mind. 16 Jahre alt sein muss.
 Fall 1:
+
 . Der Use Case wird abgebrochen
-Fall 2: 
+Fall 2:
+
 . Der Nutzer gibt ein falsches Geburtsdatum an.
 . Der Use Case wird im Schritt 3 fortgesetzt.
 
