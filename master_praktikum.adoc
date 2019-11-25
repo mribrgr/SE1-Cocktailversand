@@ -18,4 +18,4 @@ include::prakt1/aufgabe4.adoc[]
 include::prakt1/aufgabe5.adoc[]
 
 
-include::prakt2/cocktaliversand_usecase_model.adoc[]
+include::prakt2/cocktailversand_usecase_model.adoc[]
