@@ -12,7 +12,7 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 == Barbetreiber
 
 * Hinzufügen/Entfernen von Produkten
-* Kein Alkohol an Minderwertige ausschenken
+* Kein Alkohol an Minderjährige ausschenken
 
 == Versandtabteilungsarbeiter
 
