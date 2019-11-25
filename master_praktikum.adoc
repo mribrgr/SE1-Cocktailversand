@@ -16,3 +16,6 @@ include::prakt1/aufgabe3.adoc[]
 include::prakt1/aufgabe4.adoc[]
 
 include::prakt1/aufgabe5.adoc[]
+
+
+include::prakt2/cocktaliversand_usecase_model.adoc[]
