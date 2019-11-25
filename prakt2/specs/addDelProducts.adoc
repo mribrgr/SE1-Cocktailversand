@@ -1,50 +1,56 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
-== Use-Case: <use-case name>
+== Use-Case: <Hinzufügen/Entfernen von Produkten>
 ===	Kurzbeschreibung
-//<Kurze Beschreibung des Use Case>
+Der Barbetreiber möchte Produkte, die er nicht mehr verkaufen will aus dem Shop entfernen.
+Der Barbetreiber möchte neue Produkte der Produktpalette hinzufügen.
 
 ===	Kurzbeschreibung der Akteure
-==== <Akteur 1 Name>
+==== <Akteur 1 Barbetreiber>
 
 === Vorbedingungen
-//Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
-<Vorbedingung 1>
+* Barbetreiber möchte ein Produkt hinzufügen
+* Barbetreiber möchte ein Produkt löschen (da veraltet)
+* Barbetreiber möchte ein Produkt bearbeiten (da Inhaltsänderung)
 
-=== Standardablauf (Basic Flow)
-//Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
+=== Standardablauf - Hinzufügen (Basic Flow)
 
-. Der Use Case beginnt, wenn <akteur> <macht>…
-. <Standardablauf Schritt 1>
-. 	… 
-. <Standardablauf Schritt n>
+. Der Use Case beginnt, wenn Barbetreiber ein neues Produkt hinzufügen möchte…
+. Öffne Masteransicht
+. gehen zu Produkte
+. klick auf Schaltfläche "Hinzufügen"
+. Ausfüllen einer Form über Daten zum Produkt
+. Hochladen von Bildern
+. Bestätigen
 . Der Use Case ist abgeschlossen.
 
-=== Alternative Abläufe
+=== Alternative Abläufe 
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
-==== <Alternativer Ablauf 1>
-Wenn <Akteur> im Schritt <x> des Standardablauf <etwas macht>, dann 
-. <Ablauf beschreiben>  
-. Der Use Case wird im Schritt <y> fortgesetzt.
+==== <Alternativer Ablauf 1> - Löschen
+Wenn Barbetreiber im Schritt <1> des Standardablauf ein Produkt löschen möchte, dann 
+. Öffne Masteransicht
+. gehen zu Produkte
+. auswählen des zu Löschenden Produktes
+. klicken auf "Löschen"
+. Bestätigen
+. Der Use Case ist abgeschlossen.
 
-=== Unterabläufe (subflows)
-//Nutzen Sie Unterabläufe, um wiederkehrende Schritte auszulagern
+==== <Alternativer Ablauf 2> - Bearbeiten
+Wenn Barbetreiber im Schritt <1> des Standardablauf ein Produkt bearbeiten möchte, dann 
+. Öffne Masteransicht
+. gehen zu Produkte
+. auswählen des zu bearbeitenden Produktes
+. klicken auf "Bearbeiten"
+. Bearbeiten einer Form über Daten zum Produkt
+. Bearbeiten von Bildern
+. Bestätigen
+. Der Use Case ist abgeschlossen.
 
-==== <Unterablauf 1>
-. <Unterablauf 1, Schritt 1>
-. …
-. <Unterablauf 1, Schritt n>
-
-=== Wesentliche Szenarios
-//Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
-==== <Szenario 1>
-. <Szenario 1, Schritt 1>
-. 	…
-. <Szenario 1, Schritt n>
 
 ===	Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
-==== <Nachbedingung 1>
+==== <Aktualisieren der Shopansicht>
 
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
-==== <Besondere Anforderung 1>
+==== Einfachheit
+==== Schnelles Effizientes Bearbeiten
