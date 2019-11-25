@@ -23,6 +23,7 @@ Derjenige, welche die Bestellung aufgibt.
 . <<sub-bezahlung>>
 
 #[flow-finalized]
+
 . Bestellung abgeschlossen
 
 === Alternative Abläufe
