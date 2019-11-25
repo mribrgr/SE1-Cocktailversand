@@ -10,26 +10,27 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 //Dafür sollten Sie pro Use-Case eine Datei anlegen, die auf dem usecase_spec.adoc Template basiert.
 
 == Barbetreiber
-Ziel:
-*  Hinzufügen/Entfernen von Produkten
+
+* Hinzufügen/Entfernen von Produkten
+* Kein Alkohol an Minderwertige ausschenken
 
 == Versandtabteilungsarbeiter
-Ziel:
+
 * Erkennen von neuen Bestellungen
 
 == Lagerarbeiter
-Ziel:
+
 * Verwaltung der aktuellen Bestände
 
 == Privatkunden
-Ziel:
+
 * Anlegen eines Benutzerkontos
 * Bestellung Aufgeben
 
 == Paypal
-Ziel:
+
 * Abwicklung des Bezahlvorgangs
 
 == Hacker
-Ziel:
+
 * Ergattern von Nutzerdaten
