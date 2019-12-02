@@ -1,0 +1,37 @@
+//Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
+== Use-Case: Einsehen und Bestätigungen neuer Bestellungen
+===	Kurzbeschreibung
+//<Kurze Beschreibung des Use Case>
+
+===	Kurzbeschreibung der Akteure
+==== Versandtabteilungsarbeiter
+Der Versandtabteilungsarbeiter ist für die Zusammenstellung der Pakete verantwortlich.
+
+=== Vorbedingungen
+//Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
+. Der Versandtabteilungsarbeiter verfügt über ein Konto, das ihm Zugriff auf die Datenbank gewährt und ist hier eingeloggt. Er arbeitet über das Backend.
+
+=== Standardablauf (Basic Flow)
+//Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
+
+. Der Use Case beginnt, wenn der Versandtabteilungsarbeiter angibt, dass er die Bestellungen einsehen möchte.
+. Ihm wird eine Liste mit Bestellungen angezeigt, die nach dem Alter sortiert sind. Der Versandtabteilungsarbeiter gibt an, dass er Details einer Bestellung ansehen möchte.
+. Der Versandtabteilungsarbeiter stellt das Paket zusammen.
+. Der Versandtabteilungsarbeiter bestätigt die Bestellung.
+. Der Use Case ist abgeschlossen.
+
+=== Alternative Abläufe
+//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
+==== Fehlende Zutaten
+Wenn der Versandtabteilungsarbeiter im Schritt 3 des Standardablauf merkt, dass Zutaten fehlen, dann 
+. Der Versandtabteilungsarbeiter trägt die fehlenden Zutaten ein. 
+. Der Use Case wird im Schritt 1 oder 2 fortgesetzt, sobald die benötigten Zutaten verfügbar sind.
+
+===	Nachbedingungen
+//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+==== Speichern von Daten in der Datenbank
+Der neue Lagerbestand und der Stand der Bestellung werden gespeichert.
+
+=== Besondere Anforderungen
+//Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
+==== <Besondere Anforderung 1>
