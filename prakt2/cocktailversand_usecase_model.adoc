@@ -15,23 +15,26 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 
 include::specs/addDelProducts.adoc[]
 
+
 == Versandtabteilungsarbeiter
 
 * Erkennen von neuen Bestellungen
 
-include::EinsehenBestätigenVonBestellungen.adoc[]
+include::specs/EinsehenBestätigenVonBestellungen.adoc[]
 
-* Buchen und Eintragen eingehender Waren
 
 == Lagerarbeiter
 
 * Verwaltung der aktuellen Bestände
 
+* Buchen und Eintragen eingehender Waren
+
+
 == Privatkunden
 
 * Anlegen eines Benutzerkontos
 
-include::BenutzerkontoAnlegen.adoc[]
+include::specs/BenutzerkontoAnlegen.adoc[]
 
 * Bestellung Aufgeben
 
@@ -39,4 +42,4 @@ include::specs/addOrder_usecase_spec.adoc[]
 
 * Bestellung stornieren
 
-include::BestellungStornieren.adoc[]
+include::specs/BestellungStornieren.adoc[]
