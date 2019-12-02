@@ -18,7 +18,7 @@ Der Kunde verfügt über eine gültige E-Mail-Adresse und befindet sich auf der 
 . Der Use Case beginnt, wenn der Kunde dem System mitteilt, dass er sich registrieren möchte.
 . Der Kunde gibt seine E-Mail, sein Geburtsdatum und ein Passwort sowie die Bestätigung von diesem an. Er stimmt den Nutzungsbedingungen zu.
 . Der Kunde betätigt die Registrierung.
-. In seinem E-Mail-Postfach klickt er auf den Bestätigungslink aus der Mail, die er vom Cocktail-Versand erhalten hat.
+. In seinem E-Mail-Postfach klickt er auf den Bestätigungslink aus der Mail, die er vom Cocktail-Versand erhalten hat. Er wird auf eine Seite weitergeleitet, die ihn über das erfolgreiche Erstellen des Kontos informiert.
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
