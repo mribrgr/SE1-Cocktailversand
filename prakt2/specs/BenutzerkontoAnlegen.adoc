@@ -30,7 +30,7 @@ a. eine ungültige E-Mail-Adresse eingibt
 b. sein Geburtsdatum erschließen lässt, dass er jünger als 16 ist 
 c. das eingebene Passwort und die Bestätigung nicht übereinstimmen
 d. das Passwort die Sicherheitsbedingungen des Systems nicht erfüllt 
-e. die Nutzungsbedingungen nicht bestätigt wurden
+e. die Nutzungsbedingungen nicht bestätigt wurden oder
 f. eine Eingabe fehlt
 
 fordert das System ihn auf, gültige Eingaben zu tätigen. Je nach ungültiger Eingabe werden Hinweise ausgegeben, die beschreiben, wie eine gültige Eingabe zu tätigen ist.
