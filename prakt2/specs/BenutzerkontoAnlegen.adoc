@@ -23,6 +23,10 @@ Der Kunde verfügt über eine gültige E-Mail-Adresse und befindet sich auf der 
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
+==== Adresse angeben
+Nach Schritt 4 des Standardablaufs kann der Kunde eine Lieferadresse hinzufügen.
+. Der Kunde gibt Anrede, Name, Vorname, Straße, Hausnummer, PLZ, Ort und evtl. Adresszusatz an und bestätigt seine Angaben.
+
 ==== Ungültige Eingabe
 Wenn der Privatkunde im Schritt 2 des Standardablauf
 
@@ -55,13 +59,22 @@ Wenn der Kunde im Schritt 2 des Standardablauf eine falsche E-Mail-Adresse eingi
 . Der Kunde realisiert, dass er die falsche E-Mail-Adresse angegeben hat und versucht, sich erneut zu registrieren.
 . Der Use Case wird im Schritt 1 fortgesetzt.
 
+=== Wesentliche Szenarios
+//Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
+==== W (83) legt ein Kundenkonto an
+. W teilt mit, dass er sich registrieren möchte
+. W trägt seinen seine E-Mail-Adresse und das Passwort ein
+. W versucht, das Kundenkonto anzulegen
+. Die Webanwendung teilt ihm mit, dass er sein Geburtsdatum eintragen und den Nutzungsbedingungen zustimmen muss. W führt diese Anweisungen aus.
+. W wiederholt Schritt 3. Ihm wird mitgeteilt, dass an seine E-Mail-Adresse ein Link zur Bestätigung gesendet wurde.
+. W bestätigt den Link in der E-Mail. Sein Kundenkonto wurde angelegt.
+
 ===	Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 ==== Das Benutzerkonto wurde in der Datenbank gespeichert
 E-Mail-Adresse, Geburtsdatum und das gehashte Passwort befinden sich in der Datenbank des Systems.
 
-=== Alternative Abläufe
-//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
-==== Adresse angeben
-Nach Schritt 4 des Standardablaufs kann der Kunde eine Lieferadresse hinzufügen.
-. Der Kunde gibt Anrede, Name, Vorname, Straße, Hausnummer, PLZ, Ort und evtl. Adresszusatz an und bestätigt seine Angaben.
+=== Besondere Anforderungen
+//Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
+==== Sicheres Passwort
+Das Passwort muss mind. 8 Zeichen lang sein und jeweils mind. 1 Kleinbuchstaben, Großbuchstaben und Sonderzeichen enthalten. 
