@@ -5,8 +5,8 @@
 Die bestellten Waren können eingesehen und das abgeschlossene Bearbeiten einer Bestellung bestätigt werden.
 
 ===	Kurzbeschreibung der Akteure
-==== Versandtabteilungsarbeiter
-Der Versandtabteilungsarbeiter ist für die Zusammenstellung der Pakete verantwortlich.
+==== Versandabteilungsarbeiter
+Der Versandabteilungsarbeiter ist für die Zusammenstellung der Pakete verantwortlich.
 
 === Vorbedingungen
 //Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
@@ -17,18 +17,29 @@ Der Versandtabteilungsarbeiter ist für die Zusammenstellung der Pakete verantwo
 
 . Der Use Case beginnt, wenn der Versandtabteilungsarbeiter angibt, dass er die Bestellungen einsehen möchte.
 . Ihm wird eine Liste mit Bestellungen angezeigt. Der Versandtabteilungsarbeiter gibt an, dass er Details einer Bestellung ansehen möchte.
-. Der Versandtabteilungsarbeiter stellt das Paket zusammen.
-. Der Versandtabteilungsarbeiter bestätigt die Bestellung.
+. Der Versandabteilungsarbeiter teilt dem System mit, dass die Bestellung nun bearbeitet wird.
+. Der Versandabteilungsarbeiter stellt das Paket zusammen.
+. Der Versandabteilungsarbeiter bestätigt die Bestellung.
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
 ==== Verschwendete Zutaten
-Wenn im Schritt 3 des Standardablauf aus einem beliebigen Grund mehr Zutaten verbraucht als vorgesehen verbraucht werden, so muss der Versandtabteilungsarbeiter dies dem System mitteilen.
+Wenn im Schritt 4 des Standardablauf aus einem beliebigen Grund mehr Zutaten als vorgesehen verbraucht werden, so muss der Versandtabteilungsarbeiter dies dem System mitteilen.
 
-. Der Versandtabteilungsarbeiter trägt ein, welche Zutaten er verschwendet hat
+. Der Versandtabteilungsarbeiter trägt ein, welche Zutaten in welcher Menge verschwendet wurden
 . Der Use Case wird im Schritt 4 fortgesetzt.
+
+=== Wesentliche Szenarios
+//Szenarios sind konkrete Instanzen eines Use Case, d.h. mit einem konkreten Akteur und einem konkreten Durchlauf der o.g. Flows. Szenarios können als Vorstufe für die Entwicklung von Flows und/oder zu deren Validierung verwendet werden.
+==== Der Versandabteilungsarbeiter K möchte eine Bestellung abfertigen. Er ist bereits in seinem Account eingeloggt.
+. K gibt an, dass er die Bestellungen einsehen möchte.
+. K sieht die oberste Bestellung ein, für die alle Zutaten verfügbar sind.
+. Er trägt ein, dass die Bestellung nun bearbeitet wird.
+. Er beauftragt den Barkeeper, Cocktails zu mixen. Nach einiger Zeit nimmt K die Ware vom Barkeeper entgegen.
+. K stellt das Paket zusammen.
+. K bestätigt die Bestellung im System.
 
 ===	Nachbedingungen
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
@@ -38,7 +49,7 @@ Der neue Lagerbestand und der Stand der Bestellung werden gespeichert.
 === Besondere Anforderungen
 //Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
 ==== Automatische Verwaltung des Lagerbestands
-Mit der Bestätigung einer Bestellung wird der Bestand der Zutaten automatisch verändert.
+Mit dem der Bearbeitung einer Bestellung wird der Bestand der Zutaten in der Datenbank automatisch reduziert.
 
 ==== Anzeige der Bestellungen
 In der Standardanzeige wird die Liste mit Bestellungen nach dem Alter sortiert (älteste Bestellungen werden als Erstes angezeigt). Bestellungen, für deren Anfertigung Zutaten fehlen, werden entsprechend markiert und können in der Liste ein- und ausgeblendet werden.
