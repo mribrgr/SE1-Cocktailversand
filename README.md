@@ -5,6 +5,7 @@ Dieses Repository enthält keinen Code.
 
 ## Tool: Visual Paradigm
 https://www.visual-paradigm.com/
+
 https://ap.visual-paradigm.com/htw-dresden-university-of-applied-sciences/license.jsp
 
 ## Lizenz
