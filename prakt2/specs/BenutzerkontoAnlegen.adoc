@@ -16,7 +16,7 @@ Der Kunde verfügt über eine gültige E-Mail-Adresse und befindet sich auf der 
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
 . Der Use Case beginnt, wenn der Kunde dem System mitteilt, dass er sich registrieren möchte.
-. Der Kunde gibt seine E-Mail sein Geburtsdatum und ein Passwort sowie die Bestätigung von diesem an. Er stimmt den Nutzungsbedingungen Checkbox zu.
+. Der Kunde gibt seine E-Mail, sein Geburtsdatum und ein Passwort sowie die Bestätigung von diesem an. Er stimmt den Nutzungsbedingungen zu.
 . Der Kunde betätigt die Registrierung.
 . In seinem E-Mail-Postfach klickt er auf den Bestätigungslink aus der Mail, die er vom Cocktail-Versand erhalten hat.
 . Der Use Case ist abgeschlossen.
@@ -32,17 +32,19 @@ c. das eingebene Passwort und die Bestätigung nicht übereinstimmen
 d. das Passwort die Sicherheitsbedingungen des Systems nicht erfüllt 
 e. die Nutzungsbedingungen nicht bestätigt wurden
 f. eine Eingabe fehlt
-fordert das System ihn auf, gültige Eingaben zu tätigen. Je nach ungültiger Eingabe werden Hinweise ausgegeben, die beschreiben, wie eine gültige Eingabe zu tätigen ist.
 
+fordert das System ihn auf, gültige Eingaben zu tätigen. Je nach ungültiger Eingabe werden Hinweise ausgegeben, die beschreiben, wie eine gültige Eingabe zu tätigen ist.
 
 . Der Kunde korrigiert seine Eingaben.
 . Der Use Case wird im Schritt 3 fortgesetzt.
 
 ==== Der Kunde ist jünger als 16
 Wenn der Kunde im Schritt 2 des Standardablauf ein korrektes Geburtsdatum angibt, das erschließen lässt, dass er jünger als 16 ist, wird der Hinweis ausgegeben, dass ein Nutzer zum Anlegen eines Kundenkontos mind. 16 Jahre alt sein muss.
+
 Fall 1:
 
 . Der Use Case wird abgebrochen
+
 Fall 2:
 
 . Der Nutzer gibt ein falsches Geburtsdatum an.
