@@ -27,8 +27,11 @@ include::specs/EinsehenBestätigenVonBestellungen.adoc[]
 
 * Verwaltung der aktuellen Bestände
 
+include::specs/checkBestände.adoc[]
+
 * Buchen und Eintragen eingehender Waren
 
+include::specs/BuchenEingehendeBestellungen.adoc[]
 
 == Privatkunden
 
