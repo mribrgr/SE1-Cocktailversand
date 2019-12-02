@@ -25,7 +25,7 @@ Der Versandtabteilungsarbeiter ist für die Zusammenstellung der Pakete verantwo
 //Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
 
 ==== Verschwendete Zutaten
-Wenn der Versandtabteilungsarbeiter im Schritt 3 des Standardablauf aus einem beliebigen Grund mehr Zutaten verbraucht, als vorgesehen ist, so muss er dies dem System mitteilen.
+Wenn im Schritt 3 des Standardablauf aus einem beliebigen Grund mehr Zutaten verbraucht als vorgesehen verbraucht werden, so muss der Versandtabteilungsarbeiter dies dem System mitteilen.
 
 . Der Versandtabteilungsarbeiter trägt ein, welche Zutaten er verschwendet hat
 . Der Use Case wird im Schritt 4 fortgesetzt.
