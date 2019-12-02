@@ -12,11 +12,16 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 == Barbetreiber
 
 * Hinzufügen/Entfernen von Produkten
+
 include::specs/addDelProducts.adoc[]
 
 == Versandtabteilungsarbeiter
 
 * Erkennen von neuen Bestellungen
+
+include::EinsehenBestätigenVonBestellungen.adoc[]
+
+* Buchen und Eintragen eingehender Waren
 
 == Lagerarbeiter
 
@@ -25,5 +30,13 @@ include::specs/addDelProducts.adoc[]
 == Privatkunden
 
 * Anlegen eines Benutzerkontos
+
+include::BenutzerkontoAnlegen.adoc[]
+
 * Bestellung Aufgeben
+
+include::specs/addOrder_usecase_spec.adoc[]
+
 * Bestellung stornieren
+
+include::BestellungStornieren.adoc[]
