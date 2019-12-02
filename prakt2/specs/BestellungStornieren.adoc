@@ -1,0 +1,37 @@
+//Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
+== Use-Case: Bestellung stornieren
+===	Kurzbeschreibung
+//<Kurze Beschreibung des Use Case>
+Der Privatkunde kann Bestellungen, deren Ausgang weniger als 24h zurücklegt, stornieren.
+
+===	Kurzbeschreibung der Akteure
+==== Privatkunde
+Ein Privatkunde nutzt das System, um Bestellungen aufzugeben.
+
+=== Vorbedingungen
+//Vorbedingungen müssen erfüllt, damit der Use Case beginnen kann, z.B. Benutzer ist angemeldet, Warenkorb ist nicht leer...
+. Nutzer ist eingeloggt
+
+=== Standardablauf (Basic Flow)
+//Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
+
+. Der Use Case beginnt, wenn der Kunde seine Bestellhistorie einsieht
+. Er übergibt dem System die Information, dass er eine bestimmte Bestellung stornieren möchte. Dies ist ihm nur möglich, wenn die Bestätigung der Bestellung weniger als 24h zurückliegt.
+. Nach erneuter Nachfrage, ob er die Stornierung wirklich stornieren möchte, bestätigt der Kunde diese.
+. Der Use Case ist abgeschlossen.
+
+=== Alternative Abläufe
+//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
+==== Stornierung nicht bestätigen
+. Nach Schritt 2 des Standardablaufs bricht der Kunde die Stornierung ab.
+. Der Use Case wird nicht fortgesetzt.
+
+===	Nachbedingungen
+//Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
+==== Stornierte Bestellungen
+Die Bestellung wird in der Datenbank als "storniert" markiert.
+
+=== Besondere Anforderungen
+//Besondere Anforderungen können sich auf nicht-funktionale Anforderungen wie z.B. einzuhaltende Standards, Qualitätsanforderungen oder Anforderungen an die Benutzeroberfläche beziehen.
+==== Buttons zum Stornieren
+Neben jeder Bestellung, die vor weniger als 24h ausging, befindet sich ein Button zum Stornieren.
