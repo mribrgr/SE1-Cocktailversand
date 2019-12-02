@@ -12,7 +12,6 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 == Barbetreiber
 
 * Hinzufügen/Entfernen von Produkten
-* Kein Alkohol an Minderjährige ausschenken
 
 == Versandtabteilungsarbeiter
 
@@ -26,3 +25,4 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 
 * Anlegen eines Benutzerkontos
 * Bestellung Aufgeben
+* Bestellung stornieren
