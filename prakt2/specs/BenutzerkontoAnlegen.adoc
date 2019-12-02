@@ -15,11 +15,10 @@ Der Kunde verfügt über eine gültige E-Mail-Adresse und befindet sich auf der 
 === Standardablauf (Basic Flow)
 //Der Standardablauf definiert die Schritte für den Erfolgsfall ("Happy Path")
 
-. Der Use Case beginnt, wenn der Kunde die Schaltfläche "Registrieren" betätigt
-. Der Kunde gibt seine E-Mail sein Geburtsdatum und ein Passwort sowie die Bestätigung von diesem an. Er stimmt den Nutzungsbedingungen über eine Checkbox zu.
-. Der Kunde betätigt die Registrierung über eine Schaltfläche.
+. Der Use Case beginnt, wenn der Kunde dem System mitteilt, dass er sich registrieren möchte.
+. Der Kunde gibt seine E-Mail sein Geburtsdatum und ein Passwort sowie die Bestätigung von diesem an. Er stimmt den Nutzungsbedingungen Checkbox zu.
+. Der Kunde betätigt die Registrierung.
 . In seinem E-Mail-Postfach klickt er auf den Bestätigungslink aus der Mail, die er vom Cocktail-Versand erhalten hat.
-. Der Kunde kann eine Lieferadresse (Anrede, Name, Vorname, Straße, Hausnummer, PLZ, Ort, Adresszusatz) hinzufügen oder diesen Schritt überspringen.
 . Der Use Case ist abgeschlossen.
 
 === Alternative Abläufe
@@ -58,3 +57,9 @@ Wenn der Kunde im Schritt 2 des Standardablauf eine falsche E-Mail-Adresse eingi
 //Nachbedingungen beschreiben das Ergebnis des Use Case, z.B. einen bestimmten Systemzustand.
 ==== Das Benutzerkonto wurde in der Datenbank gespeichert
 E-Mail-Adresse, Geburtsdatum und das gehashte Passwort befinden sich in der Datenbank des Systems.
+
+=== Alternative Abläufe
+//Nutzen Sie alternative Abläufe für Fehlerfälle, Ausnahmen und Erweiterungen zum Standardablauf
+==== Adresse angeben
+Nach Schritt 4 des Standardablaufs kann der Kunde eine Lieferadresse hinzufügen.
+. Der Kunde gibt Anrede, Name, Vorname, Straße, Hausnummer, PLZ, Ort und evtl. Adresszusatz an und bestätigt seine Angaben.
