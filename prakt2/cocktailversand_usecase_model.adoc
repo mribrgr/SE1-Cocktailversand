@@ -26,7 +26,3 @@ Vorname Nachname <email@domain.org>; Vorname2 Nachname2 <email2@domain.org>; Vor
 
 * Anlegen eines Benutzerkontos
 * Bestellung Aufgeben
-
-== Paypal
-
-* Abwicklung des Bezahlvorgangs
