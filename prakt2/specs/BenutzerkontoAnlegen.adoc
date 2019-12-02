@@ -1,7 +1,7 @@
 //Nutzen Sie dieses Template als Grundlage für die Spezifikation *einzelner* Use-Cases. Diese lassen sich dann per Include in das Use-Case Model Dokument einbinden (siehe Beispiel dort).
 == Use-Case: Benutzerkonto anlegen
 ===	Kurzbeschreibung
-Privatkunden können ein Benutzerkonto anlegen, das ihm erlaubt, Bestellungen aufzugeben und den Stand von aufgebenen Bestellungen einzusehen. 
+Privatkunden können ein Benutzerkonto anlegen, das ihnen erlaubt, Bestellungen aufzugeben, den Stand von aufgebenen Bestellungen einzusehen und diese zu stornieren.
 
 ===	Kurzbeschreibung der Akteure
 ==== Privatkunde
