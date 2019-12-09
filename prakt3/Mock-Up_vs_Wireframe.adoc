@@ -1,1 +1,15 @@
+# Was ist der Unterschied zwischen einem Mock-Up (dt. Vorführmodell) und einem Wireframe (dt. Drahtgittermodell)?
 
+* Wireframe:
+** Bilden Struktur ab
+** Beschreiben grundlegende Benutzeroberfläche
+
+* Mock-Up:
+** Bauen auf Wireframes auf
+** Beschreiben viel detailreicher
+** Zeitaufwand ist deutlich höher als bei Wireframe
+
+# _Diskussion_: Warum sollte man zu Beginn des Projektes besser ein Wireframe erstellen und keinen Mock-Up?
+
+* Zeitaufwand für Wireframe viel niedriger -> Konzentrationa auf das Wesentliche
+* Eigene Ideen können sich später besser entfalten, wenn noch keine feste Vorgabe vorhanden ist
