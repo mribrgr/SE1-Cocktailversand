@@ -1,1 +1,12 @@
+= Aufgabe 8
+Diskussion: Wofür sind Aktivitätsdiagramme besonders gut geeignet? Für welche Use
+Cases ist die Modellierung des Verhaltens mittels Aktivitätsdiagramm sinnvoll?
 
+== Was ist ein Aktivitätsdiagramm?
+* im groben ein Flussdiagramm, was dem Ablauf von Aktivitäten abbildet
+* gelten als Verhaltensdiagramme, da sie Anwendungsfall und Maschienenzustand enthalten
+
+== Vorteile
+* Veranschaulichung komplexer Algorithmen (Für den Programmierer und den Auftragssteller)
+* Zur Veranschaulichung wie "Reale Welt" und Software interagieren
+* bessere Modelierung von Software Elementen (Methoden, Klassen)
